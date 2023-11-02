@@ -58,16 +58,13 @@ main {
 @media (min-width: 40rem) {
     .testimonial {
         margin: 3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
-    .testimonial__image-container {
-        display: inline-block;
-        vertical-align: middle;
-    }
 
     .testimonal__info {
-        display: inline-block;
-        vertical-align: middle;
         width: 20%;
     }
 }
